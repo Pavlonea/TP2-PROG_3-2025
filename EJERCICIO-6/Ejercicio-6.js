@@ -41,10 +41,8 @@ document.getElementById("botonDeEnviar").addEventListener("click", function () {
             // Mostrar resultado
             if (incorrectos.length > 0) {
                 resultado.innerHTML = incorrectos.join("<br>");
-                
             } 
             if (correctos.length > 0) {
-                mensaje.innerHTML = correctos.join("<br>");
-                
+                mensaje.innerHTML = correctos.join("<br>"); 
             }
         });
