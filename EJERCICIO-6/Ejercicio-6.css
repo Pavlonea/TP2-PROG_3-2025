@@ -1,0 +1,24 @@
+ body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+
+        input {
+            display: block;
+            margin: 10px 0;
+            padding: 8px;
+            width: 250px;
+        }
+
+        button {
+            padding: 10px 20px;
+        }
+
+
+        #mensaje {
+            color: green;
+        }
+
+        #resultado {
+            color: red;
+        }
